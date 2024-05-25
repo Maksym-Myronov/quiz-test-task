@@ -1,0 +1,265 @@
+[
+	{
+		"name": "JavaScript Quiz",
+		"id": 1000,
+		"questions": [
+			{
+				"question": "What is the correct syntax for declaring a constant in JavaScript?",
+				"options": [
+					{ "answer": "let constantName = value;", "isCorrect": false },
+					{ "answer": "var constantName = value;", "isCorrect": false },
+					{ "answer": "constant constantName = value;", "isCorrect": false },
+					{ "answer": "const constantName = value;", "isCorrect": true },
+					{ "answer": "constantName = value;", "isCorrect": false }
+				]
+			},
+			{
+				"question": "Which of the following is a correct way to create an arrow function in JavaScript?",
+				"options": [
+					{ "answer": "function => () {}", "isCorrect": false },
+					{ "answer": "() -> {}", "isCorrect": false },
+					{ "answer": "() => {}", "isCorrect": true },
+					{ "answer": "{} => ()", "isCorrect": false },
+					{ "answer": "() {} =>", "isCorrect": false }
+				]
+			},
+			{
+				"question": "How can you add a comment in JavaScript?",
+				"options": [
+					{ "answer": "# This is a comment", "isCorrect": false },
+					{ "answer": "// This is a comment", "isCorrect": true },
+					{ "answer": "<!-- This is a comment -->", "isCorrect": false },
+					{ "answer": "/* This is a comment", "isCorrect": false },
+					{ "answer": "-- This is a comment", "isCorrect": false }
+				]
+			},
+			{
+				"question": "Which method converts a JSON string into a JavaScript object?",
+				"options": [
+					{ "answer": "JSON.parse()", "isCorrect": true },
+					{ "answer": "JSON.stringify()", "isCorrect": false },
+					{ "answer": "JSON.object()", "isCorrect": false },
+					{ "answer": "JSON.toObject()", "isCorrect": false },
+					{ "answer": "JSON.convert()", "isCorrect": false }
+				]
+			},
+			{
+				"question": "Which of the following is used to check if a variable is an array?",
+				"options": [
+					{ "answer": "typeof variable === 'array'", "isCorrect": false },
+					{ "answer": "variable.isArray()", "isCorrect": false },
+					{ "answer": "Array.isArray(variable)", "isCorrect": true },
+					{ "answer": "Array(variable)", "isCorrect": false },
+					{ "answer": "variable instanceof Array", "isCorrect": false }
+				]
+			},
+			{
+				"question": "What is the output of 'console.log(typeof NaN)'?",
+				"options": [
+					{ "answer": "'number'", "isCorrect": true },
+					{ "answer": "'NaN'", "isCorrect": false },
+					{ "answer": "'undefined'", "isCorrect": false },
+					{ "answer": "'object'", "isCorrect": false },
+					{ "answer": "'string'", "isCorrect": false }
+				]
+			},
+			{
+				"question": "Which of the following is NOT a JavaScript data type?",
+				"options": [
+					{ "answer": "Undefined", "isCorrect": false },
+					{ "answer": "Boolean", "isCorrect": false },
+					{ "answer": "Float", "isCorrect": true },
+					{ "answer": "String", "isCorrect": false },
+					{ "answer": "Number", "isCorrect": false }
+				]
+			},
+			{
+				"question": "Which statement is used to handle exceptions in JavaScript?",
+				"options": [
+					{ "answer": "try...catch", "isCorrect": true },
+					{ "answer": "try...except", "isCorrect": false },
+					{ "answer": "attempt...catch", "isCorrect": false },
+					{ "answer": "try...handle", "isCorrect": false },
+					{ "answer": "attempt...except", "isCorrect": false }
+				]
+			},
+			{
+				"question": "Which keyword is used to create a class in JavaScript?",
+				"options": [
+					{ "answer": "class", "isCorrect": true },
+					{ "answer": "Class", "isCorrect": false },
+					{ "answer": "className", "isCorrect": false },
+					{ "answer": "classType", "isCorrect": false },
+					{ "answer": "classModel", "isCorrect": false }
+				]
+			},
+			{
+				"question": "Which of the following methods is used to add an element to the end of an array?",
+				"options": [
+					{ "answer": "add()", "isCorrect": false },
+					{ "answer": "append()", "isCorrect": false },
+					{ "answer": "push()", "isCorrect": true },
+					{ "answer": "insert()", "isCorrect": false },
+					{ "answer": "include()", "isCorrect": false }
+				]
+			}
+		]
+	},
+	{
+		"name": "React Quiz",
+		"id": 2000,
+		"questions": [
+			{
+				"question": "What is the command to create a new React app?",
+				"options": [
+					{ "answer": "npm install react-app", "isCorrect": false },
+					{ "answer": "npx create-react-app my-app", "isCorrect": true },
+					{ "answer": "npm init react-app", "isCorrect": false },
+					{ "answer": "npx init-react-app my-app", "isCorrect": false },
+					{ "answer": "npm create-react-app my-app", "isCorrect": false }
+				]
+			},
+			{
+				"question": "What is a component in React?",
+				"options": [
+					{
+						"answer": "A piece of reusable code that manages its own content, presentation, and behavior",
+						"isCorrect": true
+					},
+					{
+						"answer": "A type of function that returns a JSX element",
+						"isCorrect": false
+					},
+					{
+						"answer": "A JavaScript library for building user interfaces",
+						"isCorrect": false
+					},
+					{ "answer": "A way to manage application state", "isCorrect": false },
+					{
+						"answer": "A method to directly manipulate the DOM",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"question": "How do you create a functional component in React?",
+				"options": [
+					{
+						"answer": "class MyComponent extends React.Component {}",
+						"isCorrect": false
+					},
+					{ "answer": "const MyComponent = () => {}", "isCorrect": true },
+					{
+						"answer": "function MyComponent extends Component {}",
+						"isCorrect": false
+					},
+					{ "answer": "const MyComponent = function {}", "isCorrect": false },
+					{
+						"answer": "const MyComponent = React.Component {}",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"question": "What is JSX?",
+				"options": [
+					{
+						"answer": "A syntax extension that allows mixing HTML with JavaScript",
+						"isCorrect": true
+					},
+					{ "answer": "A templating language for React", "isCorrect": false },
+					{ "answer": "A new version of JavaScript", "isCorrect": false },
+					{ "answer": "A type of CSS used in React", "isCorrect": false },
+					{
+						"answer": "A tool for building the virtual DOM",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"question": "Which method is used to handle state in a functional component?",
+				"options": [
+					{ "answer": "useState()", "isCorrect": true },
+					{ "answer": "this.setState()", "isCorrect": false },
+					{ "answer": "stateHandler()", "isCorrect": false },
+					{ "answer": "setStateHook()", "isCorrect": false },
+					{ "answer": "useStateHandler()", "isCorrect": false }
+				]
+			},
+			{
+				"question": "What is the purpose of useEffect in React?",
+				"options": [
+					{
+						"answer": "To manage the component's local state",
+						"isCorrect": false
+					},
+					{
+						"answer": "To perform side effects in functional components",
+						"isCorrect": true
+					},
+					{ "answer": "To return JSX to be rendered", "isCorrect": false },
+					{ "answer": "To directly manipulate the DOM", "isCorrect": false },
+					{
+						"answer": "To replace lifecycle methods in class components",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"question": "How do you pass data from a parent component to a child component?",
+				"options": [
+					{ "answer": "Using props", "isCorrect": true },
+					{ "answer": "Using state", "isCorrect": false },
+					{ "answer": "Using hooks", "isCorrect": false },
+					{ "answer": "Using context", "isCorrect": false },
+					{ "answer": "Using events", "isCorrect": false }
+				]
+			},
+			{
+				"question": "What is a key in React and why is it important?",
+				"options": [
+					{
+						"answer": "A unique identifier for array elements to help React identify which items have changed",
+						"isCorrect": true
+					},
+					{
+						"answer": "A special property to give elements a default value",
+						"isCorrect": false
+					},
+					{
+						"answer": "A method to access DOM elements directly",
+						"isCorrect": false
+					},
+					{
+						"answer": "A function that returns a unique value",
+						"isCorrect": false
+					},
+					{
+						"answer": "A way to bind event handlers to elements",
+						"isCorrect": false
+					}
+				]
+			},
+			{
+				"question": "Which of the following is NOT a lifecycle method in React class components?",
+				"options": [
+					{ "answer": "componentDidMount", "isCorrect": false },
+					{ "answer": "componentDidUpdate", "isCorrect": false },
+					{ "answer": "componentWillUnmount", "isCorrect": false },
+					{ "answer": "componentWillUpdate", "isCorrect": true },
+					{ "answer": "shouldComponentUpdate", "isCorrect": false }
+				]
+			},
+			{
+				"question": "How do you handle forms in React?",
+				"options": [
+					{ "answer": "Using controlled components", "isCorrect": true },
+					{ "answer": "Using uncontrolled components", "isCorrect": false },
+					{ "answer": "Using context API", "isCorrect": false },
+					{ "answer": "Using props", "isCorrect": false },
+					{ "answer": "Using event handlers", "isCorrect": false }
+				]
+			}
+		]
+	}
+]
