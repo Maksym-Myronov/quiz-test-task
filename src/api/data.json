@@ -4,6 +4,7 @@
 		"id": 1000,
 		"questions": [
 			{
+				"id": 1,
 				"question": "What is the correct syntax for declaring a constant in JavaScript?",
 				"options": [
 					{ "answer": "let constantName = value;", "isCorrect": false },
@@ -14,6 +15,7 @@
 				]
 			},
 			{
+				"id": 2,
 				"question": "Which of the following is a correct way to create an arrow function in JavaScript?",
 				"options": [
 					{ "answer": "function => () {}", "isCorrect": false },
@@ -24,6 +26,7 @@
 				]
 			},
 			{
+				"id": 3,
 				"question": "How can you add a comment in JavaScript?",
 				"options": [
 					{ "answer": "# This is a comment", "isCorrect": false },
@@ -34,6 +37,7 @@
 				]
 			},
 			{
+				"id": 4,
 				"question": "Which method converts a JSON string into a JavaScript object?",
 				"options": [
 					{ "answer": "JSON.parse()", "isCorrect": true },
@@ -44,6 +48,7 @@
 				]
 			},
 			{
+				"id": 5,
 				"question": "Which of the following is used to check if a variable is an array?",
 				"options": [
 					{ "answer": "typeof variable === 'array'", "isCorrect": false },
@@ -54,6 +59,7 @@
 				]
 			},
 			{
+				"id": 6,
 				"question": "What is the output of 'console.log(typeof NaN)'?",
 				"options": [
 					{ "answer": "'number'", "isCorrect": true },
@@ -64,6 +70,7 @@
 				]
 			},
 			{
+				"id": 7,
 				"question": "Which of the following is NOT a JavaScript data type?",
 				"options": [
 					{ "answer": "Undefined", "isCorrect": false },
@@ -74,6 +81,7 @@
 				]
 			},
 			{
+				"id": 8,
 				"question": "Which statement is used to handle exceptions in JavaScript?",
 				"options": [
 					{ "answer": "try...catch", "isCorrect": true },
@@ -84,6 +92,7 @@
 				]
 			},
 			{
+				"id": 9,
 				"question": "Which keyword is used to create a class in JavaScript?",
 				"options": [
 					{ "answer": "class", "isCorrect": true },
@@ -94,6 +103,7 @@
 				]
 			},
 			{
+				"id": 10,
 				"question": "Which of the following methods is used to add an element to the end of an array?",
 				"options": [
 					{ "answer": "add()", "isCorrect": false },
@@ -110,6 +120,7 @@
 		"id": 2000,
 		"questions": [
 			{
+				"id": 11,
 				"question": "What is the command to create a new React app?",
 				"options": [
 					{ "answer": "npm install react-app", "isCorrect": false },
@@ -120,6 +131,7 @@
 				]
 			},
 			{
+				"id": 12,
 				"question": "What is a component in React?",
 				"options": [
 					{
@@ -142,6 +154,7 @@
 				]
 			},
 			{
+				"id": 13,
 				"question": "How do you create a functional component in React?",
 				"options": [
 					{
@@ -161,6 +174,7 @@
 				]
 			},
 			{
+				"id": 14,
 				"question": "What is JSX?",
 				"options": [
 					{
@@ -177,6 +191,7 @@
 				]
 			},
 			{
+				"id": 15,
 				"question": "Which method is used to handle state in a functional component?",
 				"options": [
 					{ "answer": "useState()", "isCorrect": true },
@@ -187,6 +202,7 @@
 				]
 			},
 			{
+				"id": 16,
 				"question": "What is the purpose of useEffect in React?",
 				"options": [
 					{
@@ -206,6 +222,7 @@
 				]
 			},
 			{
+				"id": 17,
 				"question": "How do you pass data from a parent component to a child component?",
 				"options": [
 					{ "answer": "Using props", "isCorrect": true },
@@ -216,6 +233,7 @@
 				]
 			},
 			{
+				"id": 18,
 				"question": "What is a key in React and why is it important?",
 				"options": [
 					{
@@ -241,6 +259,7 @@
 				]
 			},
 			{
+				"id": 19,
 				"question": "Which of the following is NOT a lifecycle method in React class components?",
 				"options": [
 					{ "answer": "componentDidMount", "isCorrect": false },
@@ -251,6 +270,7 @@
 				]
 			},
 			{
+				"id": 20,
 				"question": "How do you handle forms in React?",
 				"options": [
 					{ "answer": "Using controlled components", "isCorrect": true },
