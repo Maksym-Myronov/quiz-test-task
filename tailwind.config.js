@@ -4,7 +4,8 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				'regal-blue': '#4584FF'
+				'regal-blue': '#4584FF',
+				'black-window': 'rgba(0, 0, 0, 0.5)'
 			}
 		}
 	},

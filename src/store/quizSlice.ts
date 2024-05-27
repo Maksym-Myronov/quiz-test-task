@@ -6,6 +6,7 @@ type Option = {
 };
 
 type Question = {
+	id: number;
 	question: string;
 	options: Option[];
 };
@@ -14,6 +15,8 @@ type Props = {
 	id: number;
 	name: string;
 	questions: Question[];
+	isDelete?: boolean;
+	isChange?: boolean;
 };
 
 type QuizProps = {
@@ -28,11 +31,11 @@ const quizSlice = createSlice({
 	name: 'quiz',
 	initialState,
 	reducers: {
-		addQuizToArray: (state, action: PayloadAction<Props>) => {
-			state.quiz.push(action.payload);
+		setQuizArray: (state, action: PayloadAction<Props>) => {
+			state.quiz = [action.payload];
 		}
 	}
 });
 
 export default quizSlice.reducer;
-export const { addQuizToArray } = quizSlice.actions;
+export const { setQuizArray } = quizSlice.actions;
